@@ -1,0 +1,50 @@
+/* Register.css */
+
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f6f8;
+}
+
+.register-box {
+  width: 380px;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(44, 56, 72, 0.15);
+}
+
+.register-title {
+  text-align: center;
+  color: #2c3848;
+  margin-bottom: 25px;
+}
+
+.register-input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+.register-input:focus {
+  border-color: #2c3848;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 14px;
+  background: #2c3848;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background: #1f2a36;
+}

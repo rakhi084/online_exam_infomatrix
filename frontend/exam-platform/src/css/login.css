@@ -48,3 +48,39 @@
 .login-btn:hover {
   background: #1f2a36;
 }
+
+/* SUCCESS */
+.login-success {
+  background: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  animation: fadeIn 0.4s ease;
+}
+
+/* ERROR */
+.login-error {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  animation: fadeIn 0.4s ease;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

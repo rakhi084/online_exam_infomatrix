@@ -1,0 +1,78 @@
+/* =========================
+   PAGE CONTAINER
+========================= */
+.contact-container {
+  height: 100vh;
+  background: linear-gradient(to right, #4a90e2, #357bd8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* =========================
+   CARD
+========================= */
+.contact-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* =========================
+   TEXT
+========================= */
+.contact-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-subtitle {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   FORM
+========================= */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.contact-btn {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #357bd8;
+}

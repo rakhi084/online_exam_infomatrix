@@ -1,0 +1,157 @@
+/* Root */
+.teacher-dashboard {
+  display: flex;
+  height: 100vh;
+  background: #f5f7fb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar */
+.teacher-sidebar {
+  width: 220px;
+  background: #1e5cc3;
+  color: white;
+  padding: 20px;
+  border-radius: 20px 0 0 20px;
+}
+
+.teacher-logo {
+  margin-bottom: 30px;
+}
+
+.teacher-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.teacher-menu-item {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.teacher-menu-item:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* Main */
+.teacher-main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Header */
+.teacher-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.teacher-profile {
+  font-size: 24px;
+}
+
+/* Banner */
+.teacher-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.teacher-banner-img {
+  width: 100px;
+}
+
+/* Cards */
+.teacher-card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.teacher-card {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.teacher-card:hover {
+  transform: translateY(-5px);
+}
+
+.teacher-card-create {
+  background: #e3f2fd;
+}
+
+.teacher-card-exams {
+  background: #e8f5e9;
+}
+
+.view-result-btn {
+  margin-top: 10px;
+  padding: 8px;
+  width: 100%;
+  background: #1e5cc3;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.view-result-btn:hover {
+  background: #1749a3;
+}
+
+
+.teacher-exam-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.teacher-exam-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 220px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+}
+
+.view-result-btn {
+  margin-top: 10px;
+  padding: 8px;
+  width: 100%;
+  background: #1e5cc3;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.view-result-btn:hover {
+  background: #1749a3;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #b02a37;
+}

@@ -1,0 +1,36 @@
+.result-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fb;
+}
+
+.result-box {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
+
+.result-box h3 {
+  color: #1e5cc3;
+  margin: 10px 0;
+}
+
+.score {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.percentage {
+  font-size: 22px;
+  color: #1e5cc3;
+}
+
+.status {
+  margin-top: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.teacher-results-container {
+  padding: 30px;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.results-table th {
+  background: #1e5cc3;
+  color: white;
+  padding: 12px;
+}
+
+.results-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.results-table tr:hover {
+  background: #f5f7fb;
+}

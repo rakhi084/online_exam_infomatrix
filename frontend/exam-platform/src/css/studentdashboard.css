@@ -1,0 +1,197 @@
+/* =========================
+   MAIN LAYOUT
+========================= */
+.student-dashboard {
+  display: flex;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+.student-sidebar {
+  width: 220px;
+  background: #2f5db3;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.student-logo {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.student-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.student-menu-item {
+  margin: 15px 0;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.student-menu-item:hover {
+  opacity: 0.8;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+.student-main {
+  flex: 1;
+  padding: 20px;
+  background: #f4f6fb;
+}
+
+/* =========================
+   HEADER
+========================= */
+.student-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-search {
+  padding: 8px 12px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.student-profile-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.student-avatar {
+  font-size: 22px;
+}
+
+.student-logout-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.student-logout-btn:hover {
+  background: #b02a37;
+}
+
+/* =========================
+   PROFILE CARD
+========================= */
+.student-profile-card {
+  background: linear-gradient(to right, #4a90e2, #357bd8);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.student-goal-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* =========================
+   SECTION TITLE
+========================= */
+.student-section-title {
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+/* =========================
+   EXAM GRID (CENTERED)
+========================= */
+.student-exam-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* ✅ center cards */
+  gap: 20px;
+}
+
+/* =========================
+   EXAM CARD (FIXED SIZE)
+========================= */
+.student-exam-card {
+  width: 300px;              /* ✅ fixed width */
+  height: 150px;
+  background: linear-gradient(to right, #3b6edc, #4a90e2);
+  color: white;
+  padding: 18px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.student-exam-card:hover {
+  transform: translateY(-5px);
+}
+
+/* =========================
+   BADGE
+========================= */
+.student-badge {
+  background: rgba(255,255,255,0.9);
+  color: #333;
+  padding: 4px 10px;
+  border-radius: 20px;
+  width: fit-content;
+  font-size: 12px;
+}
+
+/* =========================
+   TITLE
+========================= */
+.student-exam-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* =========================
+   INFO (QUESTIONS + TIME)
+========================= */
+.student-exam-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* =========================
+   ATTEMPT BUTTON
+========================= */
+.student-attempt-btn {
+  align-self: flex-end;
+  background: #f1f1f1;
+  color: #2f5db3;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.student-attempt-btn:hover {
+  background: white;
+}

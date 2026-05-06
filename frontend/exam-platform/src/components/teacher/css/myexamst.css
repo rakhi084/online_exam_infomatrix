@@ -1,0 +1,85 @@
+/* Main Container */
+.myexams-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.myexams-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Exam list layout */
+.exam-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Card */
+.exam-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.exam-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Info */
+.exam-info h3 {
+  margin: 0;
+  color: #222;
+}
+
+.exam-info p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  color: #777;
+}
+
+/* Delete button */
+.delete-btn {
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #b02a37;
+}
+
+/* No exams text */
+.no-exams {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .exam-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .delete-btn {
+    width: 100%;
+  }
+}

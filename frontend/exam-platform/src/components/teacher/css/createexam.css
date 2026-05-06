@@ -1,0 +1,103 @@
+/* Main container */
+.create-exam-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.create-exam-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Input fields */
+.create-exam-container input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+.create-exam-container input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+/* Question block */
+.question-block {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background: #f9fafc;
+  border: 1px solid #eee;
+}
+
+/* Buttons */
+.create-exam-container button {
+  padding: 10px 18px;
+  margin: 10px 8px 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Add Question Button */
+.add-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .create-exam-container {
+    padding: 20px;
+  }
+
+  .create-exam-container input {
+    font-size: 13px;
+  }
+}
+
+
+.success-banner {
+  background: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 500;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
